@@ -1,5 +1,32 @@
+body {
+  background-color: black;
+}
+img {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: black;
+  color: white;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 1.6em
+}
 .jumbotron {
-  background-color: red;
+  background-color: #cc2020;
+  text-align: center;
+  font-size: 2.8em;
+  color: black;
+  font-family: 'Amatic SC', cursive;
+}
+.btn-custom {
+  background-color: #cc2020;
+
+}
+.btn-custom:hover {
+  background-color: #40aa60;
 }
 #yourFortune {
   display: none;
