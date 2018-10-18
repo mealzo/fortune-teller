@@ -4,6 +4,9 @@ $(document).ready(function(){
     $("#results").empty();
     $("#results").show();
     $("#yourFortune").show();
+    $("#pizza").hide();
+    $("#tania").show();
+
 
     var userResponses = [];
     $("input:checkbox[name=survey]:checked").each(function(){
